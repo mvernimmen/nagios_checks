@@ -2,6 +2,8 @@
 #
 # This is a plugin for nagios/opsview/omd to measure disk throughput related statistics.
 
+# It lives at https://github.com/mvernimmen/nagios_checks.git
+
 # TPS is the number of IOs actually going to disk. It therefore does not count merged IO
 #  as separate IO, it ignores it. It is the sum of read and write IO actions.
 # Utilisation is an average of how busy the disk was during the measurement period. This
